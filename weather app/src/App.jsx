@@ -107,7 +107,7 @@ function App() {
       setcitynotfound(true);
       setloading(false); 
       return;        
-      }
+      }0
 
       sethumidity(data.main.humidity);
       setwind(data.wind.speed);
