@@ -7,7 +7,7 @@ const FaqAccordion = ({data}) => {
         <h2>FAQs</h2>
         {data.map((value)=>(
           <FaqItem key={value.id} question={value.question} answer={value.answer} />
-        ))}  
+        ))}
         
     </div>
   )
