@@ -1,0 +1,111 @@
+/* App.css */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: #e6f2ff;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 40px;
+}
+
+.employee-form {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.employee-form input {
+  margin: 10px 5px;
+  padding: 10px;
+  width: calc(100% - 30px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.employee-form button {
+  padding: 10px 20px;
+  margin: 10px 5px 0;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employee-form button:hover {
+  background-color: #2980b9;
+}
+
+.employee-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.employee-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.employee-table button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employee-table button:first-child {
+  background-color: #f39c12;
+  color: white;
+}
+
+.employee-table button:first-child:hover {
+  background-color: #e67e22;
+}
+
+.employee-table button:last-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.employee-table button:last-child:hover {
+  background-color: #c0392b;
+}
+
+/* Search bar styling */
+input[type='text'] {
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
